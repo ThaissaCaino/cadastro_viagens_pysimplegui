@@ -4,6 +4,7 @@ import os
 import csv
 cwd = os.getcwd()
 
+
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~PERSISTENCIA~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 def grava_dados(viagens):
     arquivo = open('viagens.csv', 'a+')
